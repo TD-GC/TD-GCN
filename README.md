@@ -1,2 +1,2 @@
 # TD-GCN
-# Code will be uploaded soon!
+# The Code will be uploaded soon!
