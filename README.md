@@ -21,3 +21,8 @@ Move  **all_sqe** to:  ```./data/NW-UCLA``` <br />
  **#Third** <br />
  ```python seq_transformation.py``` <br />
   
+# Training & Testing
+## Training <br />
+```python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir work_dir/ntu/csub/tdgcn --device 0``` <br />
+## Testing <br />
+```python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0``` <br />
