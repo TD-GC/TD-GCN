@@ -2,7 +2,7 @@
 
 # Prerequisites
 
-'pip install -r requirements.txt'  <br />
+```pip install -r requirements.txt```  <br />
 
-'pip install -e torchlight'  <br />
+```pip install -e torchlight```  <br />
 
