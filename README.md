@@ -8,9 +8,9 @@
 
 # Data Preparation
 **Download NTU RGB+D 60 dataset :** https://rose1.ntu.edu.sg/dataset/actionRecognition <br />
-Extract above files to:  ```./data/nturgbd_raw```
+Extract above files to:  ```./data/nturgbd_raw``` <br />
 **Download NW-UCLA dataset :** https://www.dropbox.com/s/10pcm4pksjy6mkq/all_sqe.zip?dl=0 <br />
-Move  **all_sqe** to:  ```./data/NW-UCLA```
+Move  **all_sqe** to:  ```./data/NW-UCLA``` <br />
 
 ## Data processing
  ```cd ./data/ntu```
