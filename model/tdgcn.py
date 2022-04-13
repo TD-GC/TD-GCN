@@ -160,7 +160,8 @@ class TDGC(nn.Module):
         else:
             self.rel_channels = in_channels // rel_reduction
             self.mid_channels = in_channels // mid_reduction
-        self.conv1 = nn.Conv2d(self.in_channels, self.rel_channels, kernel_size=1)
+        self.conv1 = nn.Conv2d(self.in_channels, self.rel_channels, kernel_size=1) 
+        self.conv2 = nn.Conv2d(self.in_channels, self.rel_channels, kernel_size=1) #This convolution is redundant
         self.conv3 = nn.Conv2d(self.in_channels, self.out_channels, kernel_size=1)
         self.conv4 = nn.Conv2d(self.rel_channels, self.out_channels, kernel_size=1)
 
