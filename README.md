@@ -13,11 +13,11 @@ Extract above files to:  ```./data/nturgbd_raw``` <br />
 Move  **all_sqe** to:  ```./data/NW-UCLA``` <br />
 
 ## Data processing
- ```cd ./data/ntu```
- **#First**
- ```python get_raw_skes_data.py```
- **#Second**
- ```python get_raw_denoised_data.py```
- **#Third**
- ```python seq_transformation.py```
+ ```cd ./data/ntu``` <br />
+ **#First** <br />
+ ```python get_raw_skes_data.py``` <br />
+ **#Second** <br />
+ ```python get_raw_denoised_data.py``` <br />
+ **#Third** <br />
+ ```python seq_transformation.py``` <br />
   
